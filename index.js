@@ -60,7 +60,12 @@ $(".btn").click(function () {
 });
 
 // Game Start
-$(document).keypress(function () {
+// $(document).keypress(function () {
+//     nextSequence();
+//     $("h1").text("Level " + level);
+// });
+// mobile
+$("h1").click(function () {
     nextSequence();
     $("h1").text("Level " + level);
 });
